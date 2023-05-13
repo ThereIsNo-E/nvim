@@ -160,6 +160,16 @@ _G.packer_plugins = {
     path = "/home/noe/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
+  ["vim-dispatch"] = {
+    loaded = true,
+    path = "/home/noe/.local/share/nvim/site/pack/packer/start/vim-dispatch",
+    url = "https://github.com/tpope/vim-dispatch"
+  },
+  ["vim-dispatch-neovim"] = {
+    loaded = true,
+    path = "/home/noe/.local/share/nvim/site/pack/packer/start/vim-dispatch-neovim",
+    url = "https://github.com/radenling/vim-dispatch-neovim"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/noe/.local/share/nvim/site/pack/packer/start/vim-fugitive",
