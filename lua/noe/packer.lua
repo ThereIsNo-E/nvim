@@ -59,4 +59,12 @@ return require('packer').startup(function(use)
     use { 'mattn/emmet-vim' }
     use { 'tpope/vim-dispatch' }
     use { 'radenling/vim-dispatch-neovim' }
+    use { 'theprimeagen/vim-be-good' }
+    use {
+        'goolord/alpha-nvim',
+        requires = { 'nvim-tree/nvim-web-devicons' },
+        config = function()
+            require 'alpha'.setup(require 'alpha.themes.startify'.config)
+        end
+    }
 end)
